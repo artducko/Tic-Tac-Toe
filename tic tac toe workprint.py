@@ -1,7 +1,6 @@
 active_game = True
 nums = [0,0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 winCond = []
-#game = ['-', '-', '-', '-', '-', '-', '-', '-', '-', ]
 game = ["-" for i in range(9)]
 # displays game board
 def game_board():
@@ -11,6 +10,7 @@ def game_board():
 
 
 def user():
+    #user input
     position = input("Make a move: ")
     valid = False
     while not valid:
